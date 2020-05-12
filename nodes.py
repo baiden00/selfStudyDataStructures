@@ -19,7 +19,7 @@ wacko = Node("has a penchant for hoarding snacks")
 dot = Node("enjoys spending time in movie lots")
 
 yacko.set_next(dot) # yacko -> dot
-dot.set_nextwacko) # dot -> wacko
+dot.set_next(wacko) # dot -> wacko
 
 #getting values from link nodes
 dots_data = yacko.get_next().get_value()
