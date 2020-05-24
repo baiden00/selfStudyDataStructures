@@ -27,10 +27,10 @@ class LinkedList:
             val = val.next
 
     #traversing a LinkedList to search for a value
-    def search_value(self, toSearch):
+    def search_value(self, to_search):
         node = self.head
         while node is not None:
-            if node.value == toSearch.value:
+            if node.value == to_search.value:
                 return True
             else:
                 node = node.next
