@@ -29,3 +29,5 @@ wednesday = Node("Is the middle of the week")
 thursday = Node("Is the fourth day of the week")
 friday = Node("Is the last day of the week")
 saturday = Node("Is the weekend")
+
+print(monday)
